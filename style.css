@@ -6,10 +6,16 @@
     color: blue;
     box-sizing:border-box;
     border-radius: 10px;
+    gap: 5rem;
 }
 
 .flexivel {
     display:flex;
+}
+
+.flexivel img {
+    width: 100%;
+    width: 100px;
 }
 
 .menu_azul {
@@ -19,7 +25,6 @@
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    gap: 5rem;
 }
 
 .carousel {
