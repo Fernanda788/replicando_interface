@@ -1,16 +1,17 @@
 #quadrado {
-    padding: 100px;
+    padding: 40px;
+    height: 200px;
     margin: 10px;
     margin-right: 800px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
     border-radius: 10px;
-    gap: 5rem;
 }
 
 .flexivel {
     display:flex;
+    gap: 10rem;
 }
 
 .flexivel img {
