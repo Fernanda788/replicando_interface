@@ -28,6 +28,10 @@
     padding-right: 10px;
 }
 
+.menu_azul button{
+    border-radius: 50%;
+}
+
 .carousel {
     display: flex;
     overflow: hidden;
