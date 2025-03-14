@@ -2,7 +2,7 @@
     padding: 20px;
     height: 300px;
     margin: 10px;
-    margin-right: 800px;
+    margin-right: 600px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
@@ -13,7 +13,7 @@
     padding: 40px;
     height: 300px;
     margin: 10px;
-    margin-right: 800px;
+    margin-right: 600px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
@@ -23,10 +23,20 @@
 
 #produtos {
     color: blue;
+    gap: 10px;
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 8px;
+    margin: 10px; 
+    margin: 10px;
+    margin-right: 600px;
 }
 
 #recentes {
-    margin-left: 200px;
+    padding: 20px;
+    height: 300px;
+    margin-top: 10px;
+    margin-left: 1000px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
@@ -47,8 +57,14 @@
     width: 200px;
 }
 
-.flexivel button{
+.botao{
     border-radius: 50%;
+    width: 50px;
+}
+
+.botao img {
+    height:20px;
+    width:20px;
 }
 
 .menu_azul {
@@ -64,17 +80,11 @@
 
 .carousel {
     display: flex;
-    overflow: hidden;
-    width: 1100px;
-    gap: 10px;
-    text-align: center;
-    background-color: lightblue;
-    border-radius: 8px;
-    margin: 10px; 
 }
 
 .carousel img {
-    width: 100%;
+    width: 80%;
+    height: 150px;
     transition: transform 0.5s ease-in-out;
     box-sizing: border-box;
     border-radius: 8px;
@@ -90,4 +100,6 @@
     font-style: italic;
     color: black;
     padding: 10px;
+    width: 300px;
+    height: 100px;
 }
