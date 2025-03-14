@@ -1,4 +1,4 @@
-#quadrado {
+.quadrado {
     padding: 20px;
     height: 300px;
     margin: 10px;
@@ -32,7 +32,7 @@
     margin-right: 600px;
 }
 
-#recentes {
+.recente {
     padding: 20px;
     height: 300px;
     margin-top: 10px;
@@ -85,7 +85,6 @@
 .carousel img {
     width: 80%;
     height: 150px;
-    transition: transform 0.5s ease-in-out;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 10px;
