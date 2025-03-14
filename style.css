@@ -1,6 +1,6 @@
 #quadrado {
-    padding: 40px;
-    height: 200px;
+    padding: 20px;
+    height: 300px;
     margin: 10px;
     margin-right: 800px;
     background-color:lightblue;
@@ -11,13 +11,30 @@
 
 #status {
     padding: 40px;
-    height: 200px;
+    height: 300px;
     margin: 10px;
     margin-right: 800px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
     border-radius: 10px;
+}
+
+
+#produtos {
+    color: blue;
+}
+
+#recentes {
+    margin-left: 200px;
+    background-color:lightblue;
+    color: blue;
+    box-sizing:border-box;
+    border-radius: 10px;
+}
+
+#status h5{
+    color:blue;
 }
 
 .flexivel {
@@ -27,7 +44,11 @@
 
 .flexivel img {
     width: 100%;
-    width: 100px;
+    width: 200px;
+}
+
+.flexivel button{
+    border-radius: 50%;
 }
 
 .menu_azul {
@@ -41,14 +62,6 @@
     padding-bottom: 10px;
 }
 
-.flexivel button{
-    border-radius: 50%;
-}
-
-#produtos {
-    color: blue;
-
-}
 .carousel {
     display: flex;
     overflow: hidden;
@@ -67,4 +80,14 @@
     border-radius: 8px;
     padding: 10px;
     background-color: antiquewhite;
+}
+
+.quadradinhos {
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: white;
+    text-align: left;
+    font-style: italic;
+    color: black;
+    padding: 10px;
 }
