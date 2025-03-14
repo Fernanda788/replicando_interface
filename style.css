@@ -1,6 +1,11 @@
-.primeiro_quadrado {
-    background-color: lightblue;
-    color:blue;
-    box-sizing: border-box;
-    border-radius: 8px;
+#quadrado {
+    padding: 100px;
+    margin: 10px;
+    background-color: rgb(210, 194, 69);
+    box-sizing:border-box;
+    border-radius: 10px;
+}
+
+.flexivel {
+    display:flex;
 }
