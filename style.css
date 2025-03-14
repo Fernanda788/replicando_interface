@@ -1,6 +1,7 @@
 #quadrado {
     padding: 100px;
     margin: 10px;
+    margin-right: 800px;
     background-color:lightblue;
     color: blue;
     box-sizing:border-box;
@@ -9,4 +10,12 @@
 
 .flexivel {
     display:flex;
+}
+.menu_azul {
+    background-color: blue;
+    color: white;
+    box-sizing:border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
