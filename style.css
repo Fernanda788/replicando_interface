@@ -41,6 +41,8 @@
     gap: 10px;
     text-align: center;
     background-color: lightblue;
+    border-radius: 8px;
+    margin: 10px;
 }
 
 .carousel img {
