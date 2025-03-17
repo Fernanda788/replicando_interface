@@ -1,19 +1,4 @@
-.flexivel {
-    display:flex;
-    gap: 1rem
-}
-
-/*section {
-    width: 100%;
-    max-width: 600px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
-    background-color: lightblue;
-}*/
-
+/* Seção das IDs*/
 #quadrado {
     background-color:lightblue;
     color: blue;
@@ -54,12 +39,6 @@
     justify-content: space-between;
 } 
 
-
-
-button:hover {
-    background-color: coral;
-}
-
 .logo {
     width: 100%;
     max-width: 200px;
@@ -71,15 +50,42 @@ button:hover {
     height: auto;
 }
 
-.menu_azul {
-    background-color: blue;
-    color: white;
-    box-sizing:border-box;
+/* Seção do menu*/
+.menu-azul {
+    width: 600px;
+   
+    padding: 20px;
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-left: 20px;
+}
+
+.menu-azul ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-azul ul li {
+    margin-bottom: 10px;
+}
+
+.menu-azul ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-azul ul li a:hover {
+    background-color:lightskyblue;
+}
+
+.flexivel {
+    display:flex;
+    gap: 1rem
 }
 
 .flexivel img {
