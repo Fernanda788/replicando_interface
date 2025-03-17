@@ -1,6 +1,6 @@
 .flexivel {
     display:flex;
-    gap: 5rem
+    gap: 1rem
 }
 
 /*section {
@@ -84,7 +84,7 @@ button:hover {
     box-sizing:border-box;
     border-radius: 10px;
     width: 100%;
-    max-width: 600px;
+    max-width: 650px;
     margin: 10px;
     border-radius: 10px;
     display: flex;
