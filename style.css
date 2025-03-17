@@ -14,31 +14,6 @@
     background-color: lightblue;
 }*/
 
-button:hover {
-    background-color: coral;
-}
-
-.logo {
-    width: 100%;
-    max-width: 200px;
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-}
-
-.menu_azul {
-    background-color: blue;
-    color: white;
-    box-sizing:border-box;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
 #quadrado {
     background-color:lightblue;
     color: blue;
@@ -52,18 +27,6 @@ button:hover {
     justify-content: space-between;
     background-color: lightblue;
 }
-
-#status {
-    padding: 40px;
-    height: 300px;
-    margin: 10px;
-    margin-right: 600px;
-    background-color:lightblue;
-    color: blue;
-    box-sizing:border-box;
-    border-radius: 10px;
-}
-
 
 #produtos {
     color: blue;
@@ -91,9 +54,33 @@ button:hover {
     justify-content: space-between;
 } 
 
-#status h5{
-    color:blue;
-} 
+
+
+button:hover {
+    background-color: coral;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu_azul {
+    background-color: blue;
+    color: white;
+    box-sizing:border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 .flexivel img {
     width: 100%;
