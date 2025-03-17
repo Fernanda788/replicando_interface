@@ -1,119 +1,120 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 2900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.amarelo {
+    padding: 140px;
+    margin: 9px;
+    background-color: rgb(183, 215, 226);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.alongar {
+    padding-right: 700px;
+    width: 100%; /* Garante que todos os alongar tenham a mesma largura */
+}
+
 .flexivel {
-    display:flex;
+    display: flex;
     gap: 5rem;
 }
 
-section {
-    width: 100%;
-    max-width: 800px;
-    padding: 20px;
-    margin: 10px;
-    border-radius: 10px;
+.Quadrado {
     display: flex;
-    justify-content: space-between;
-    background-color: lightblue;
-}
-
-button:hover {
-    background-color: coral;
-}
-
-.logo {
-    width: 100%;
-    max-width: 200px;
-}
-
-.logo img {
-    width: 100%;
-    height: auto;
-}
-
-.menu_azul {
-    background-color: blue;
-    color: white;
-    box-sizing:border-box;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* #quadrado {
+    width: 1155px;
     padding: 20px;
     height: 300px;
     margin: 10px;
     margin-right: 600px;
-    background-color:lightblue;
+    background-color: lightblue;
     color: blue;
-    box-sizing:border-box;
+    box-sizing: border-box;
     border-radius: 10px;
 }
 
-#status {
-    padding: 40px;
-    height: 300px;
+.flexivel h1 {
+    color: rgb(56, 57, 57);
+    text-align: center;
+    width: 600px;
+    font-size: 400%;
+}
+
+/* Menu Azul com Abas */
+.menu-azul {
+    width: 200px;
+    background-color: rgb(0, 0, 139);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.menu-azul ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-azul ul li {
+    margin-bottom: 10px;
+}
+
+.menu-azul ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.menu-azul ul li a:hover {
+    background-color: rgb(0, 0, 255);
+}
+
+/* Ajustes nos Quadrados dentro dos Retângulos Amarelos */
+.Quadrado img {
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.Quadrado h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Carrossel */
+.carousel {
     margin: 10px;
-    margin-right: 600px;
-    background-color:lightblue;
-    color: blue;
-    box-sizing:border-box;
-    border-radius: 10px;
-}
-
-
-#produtos {
-    color: blue;
+    display: flex;
+    width: 1750px;
     gap: 10px;
     text-align: center;
     background-color: lightblue;
-    border-radius: 8px;
-    margin: 10px;
-    margin-right: 600px;
-    padding: 20px;
-}
-
-#recente {
-    padding: 20px;
-    height: 300px;
-    margin-top: 10px;
-    margin-left: 1300px;
-    background-color:lightblue;
-    color: blue;
-    box-sizing:border-box;
     border-radius: 10px;
 }
 
-#status h5{
-    color:blue;
-} */
-
-/* .flexivel img {
-    width: 100%;
-    width: 200px;
-}
-
-.carousel {
-    display: flex;
-}
-
 .carousel img {
-    width: 80%;
-    height: 150px;
+    width: 380px;
+    margin: 5px;
     box-sizing: border-box;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 10px;
     background-color: antiquewhite;
 }
 
-.quadradinhos {
+.amarelo .alongar img {
+    width: 900px;
+    margin: 5px;
     box-sizing: border-box;
-    border-radius: 8px;
-    background-color: white;
-    text-align: left;
-    font-style: italic;
-    color: black;
-    padding: 10px;
-    width: 300px;
-    height: 100px;
-} */
+    background-color: aliceblue;
+    border-radius: 20px;
+}
