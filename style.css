@@ -1,4 +1,45 @@
-#quadrado {
+.flexivel {
+    display:flex;
+    gap: 5rem;
+}
+
+section {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu_azul {
+    background-color: blue;
+    color: white;
+    box-sizing:border-box;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* #quadrado {
     padding: 20px;
     height: 300px;
     margin: 10px;
@@ -45,27 +86,11 @@
 
 #status h5{
     color:blue;
-}
+} */
 
-.flexivel {
-    display:flex;
-    gap: 10rem;
-}
-
-.flexivel img {
+/* .flexivel img {
     width: 100%;
     width: 200px;
-}
-
-.menu_azul {
-    background-color: blue;
-    color: white;
-    box-sizing:border-box;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .carousel {
@@ -91,4 +116,4 @@
     padding: 10px;
     width: 300px;
     height: 100px;
-}
+} */
