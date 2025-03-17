@@ -1,7 +1,7 @@
 /* Seção das IDs*/
 #quadrado {
     background-color:lightblue;
-    color: blue;
+    color: #007bff;
     box-sizing:border-box;
     width: 100%;
     max-width: 1400px;
@@ -14,7 +14,7 @@
 }
 
 #produto {
-    color: blue;
+    color: #007bff;
     gap: 10px;
     text-align: center;
     background-color: lightblue;
@@ -28,7 +28,7 @@
     padding: 20px;
     height: 400px;
     background-color:lightblue;
-    color: blue;
+    color: #007bff;
     box-sizing:border-box;
     border-radius: 10px;
     width: 100%;
@@ -55,6 +55,15 @@
     padding: 20px;
     border-radius: 10px;
     margin-left: 20px;
+}
+#botao {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
 }
 
 .menu-azul ul {
