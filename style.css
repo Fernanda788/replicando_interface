@@ -74,6 +74,7 @@
     padding: 20px;
     border-radius: 10px;
     margin-left: 20px;
+    padding-top: 50px;
 }
 
 .menu-azul ul {
@@ -102,6 +103,10 @@
 
 .msg_bemvindo {
     padding: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 300px;
 }
 
 /* --------------- */
@@ -129,6 +134,38 @@
     font-weight:lighter;
     color: black;
     margin-top: 10px;
+}
+
+hr {
+    color: #007bff;
+}
+
+.pedidos_recentes {
+    padding-top: 10px;
+    padding-left: 25px;
+    color: #007bff;
+    display:flex;
+    gap: 6.3rem;
+}
+
+.entre_pedidos {
+    width: 100%;
+    color: #007bff;
+    display:flex;
+    gap: 4.8rem;
+    padding-left: 10px;
+}
+
+.quadrado_status {
+    display: flex; /* Isso fez o símbolo ficar no meio*/
+    align-items: center; /* Isso fez o símbolo ficar no meio*/
+    justify-content: center; /* Isso fez o símbolo ficar no meio*/
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 /* Section dos produtos: */
@@ -255,10 +292,20 @@
     color: white;
 }
 
+.vermelha {
+    background-color: #c81a1aea;
+    color: white;
+}
+
 .azul {
     background-color: white;
     border: 2px solid #007bff;
     color: #007bff;
+}
+
+.linha {
+    border-bottom: 2px solid;
+    display: block;
 }
 
 .linha_verde {
