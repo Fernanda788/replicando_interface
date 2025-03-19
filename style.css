@@ -16,7 +16,8 @@
     display: flex;
     justify-content: space-between;
     position:relative;
-    max-width: 815px;
+    max-width: 1460px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #recente {
@@ -31,6 +32,7 @@
     justify-content: space-between;
     background-color: lightblue;
     position:relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #status { /*Igualzinha à quadrado, mas não tem display flex*/
@@ -44,6 +46,7 @@
     justify-content: space-between;
     background-color: lightblue;
     position:relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #produtos {
@@ -56,6 +59,7 @@
     display: block;
     justify-content: space-between;
     position:relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Menu: */
@@ -146,6 +150,7 @@ hr {
     color: #007bff;
     display:flex;
     gap: 6.3rem;
+    font-weight: bold;
 }
 
 .entre_pedidos {
@@ -154,6 +159,7 @@ hr {
     display:flex;
     gap: 4.8rem;
     padding-left: 10px;
+    font-weight: bold;
 }
 
 .quadrado_status {
@@ -168,6 +174,21 @@ hr {
     font-weight: bold;
 }
 
+.botao_produtos {
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.botao_produtos:hover {
+    background-color: #004085;
+}
+
 /* Section dos produtos: */
 
 .carousel {
@@ -177,12 +198,9 @@ hr {
 
 .carousel img {
     width: 100%;
-    height: 150px;
-    max-width: 200px;;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 10px;
-    align-items: center;
 }
 
 .card {
@@ -191,6 +209,13 @@ hr {
     text-align: center;
     background-color: antiquewhite;
     border-color: lightblue;
+    padding-bottom: 20px;
+    height: 300px;
+}
+
+.card h4{
+    padding-top: 10px;
+    font-size: 15px;
 }
 
 .button {
@@ -257,7 +282,14 @@ hr {
 .progress-bar {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 75px;
+}
+
+.barrinha {
+    padding: 2px;
+    padding-left: 850px;
+    position: absolute;
+    z-index: 0;
 }
 
 .texto_status {
@@ -279,7 +311,6 @@ hr {
     border-radius: 50%;
     text-align: center;
     font-size: 14px;
-    font-weight: bold;
 }
 
 .verde {
