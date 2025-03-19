@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+#quadrado {
+    background-color:lightblue;
+    color: blue;
+    box-sizing:border-box;
+    width: 100%;
+    max-width: 1400px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: lightblue;
+}

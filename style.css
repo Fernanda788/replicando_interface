@@ -1,59 +1,318 @@
-#quadrado {
-    padding: 40px;
-    height: 200px;
-    margin: 10px;
-    margin-right: 800px;
-    background-color:lightblue;
-    color: blue;
-    box-sizing:border-box;
-    border-radius: 10px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
 }
 
+/* Seção das IDs*/
+#quadrado {
+    background-color: lightblue;
+    color: #007bff;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    max-width: 815px;
+}
+
+#recente {
+    background-color: lightblue;
+    color: #007bff;
+    width: 100%;
+    height: 400px;
+    max-width: 600px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: lightblue;
+    position:relative;
+}
+
+#status { /*Igualzinha à quadrado, mas não tem display flex*/
+    background-color: lightblue;
+    color: #007bff;
+    width: 100%;
+    max-width: 1600px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: lightblue;
+    position:relative;
+}
+
+#produtos {
+    background-color: lightblue;
+    color: #007bff;
+    width: 100%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    justify-content: space-between;
+    position:relative;
+}
+
+/* Menu: */
+.logo {
+    width: 100%;
+    max-width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-azul {
+    width: 600px;
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.menu-azul ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-azul ul li {
+    margin-bottom: 10px;
+}
+
+.menu-azul ul li a {
+    color: white;
+    text-decoration: none;
+    /* Sem isso fica um underline feio*/
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu-azul ul li a:hover {
+    background-color: lightskyblue;
+}
+
+.msg_bemvindo {
+    padding: 20px;
+    padding-top: 50px;
+    padding-left: 100px;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* --------------- */
+
 .flexivel {
-    display:flex;
-    gap: 10rem;
+    display: flex;
+    gap: 1rem;
 }
 
 .flexivel img {
     width: 100%;
-    width: 100px;
+    width: 300px;
 }
 
-.menu_azul {
-    background-color: blue;
-    color: white;
-    box-sizing:border-box;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+.nome {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-top: 0;
+}
+.mensagem {
+    padding-left: 20px;
+    font-size: 10px;
+    font-weight:lighter;
+    color: black;
+    margin-top: 10px;
+}
+
+hr {
+    color: #007bff;
+}
+
+.pedidos_recentes {
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-left: 25px;
+    color: #007bff;
+    display:flex;
+    gap: 6.3rem;
 }
 
-.menu_azul button{
-    border-radius: 50%;
+.entre_pedidos {
+    width: 100%;
+    color: #007bff;
+    display:flex;
+    gap: 4.8rem;
+    padding-left: 10px;
 }
 
-#produtos {
-    color: blue;
-    position: absolute;
+.quadrado_status {
+    display: flex; /* Isso fez o símbolo ficar no meio*/
+    align-items: center; /* Isso fez o símbolo ficar no meio*/
+    justify-content: center; /* Isso fez o símbolo ficar no meio*/
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
 }
+
+/* Section dos produtos: */
+
 .carousel {
     display: flex;
-    overflow: hidden;
-    width: 1100px;
-    gap: 10px;
-    text-align: center;
-    background-color: lightblue;
-    border-radius: 8px;
-    margin: 10px;
+    gap: 1rem;
 }
 
 .carousel img {
     width: 100%;
-    transition: transform 0.5s ease-in-out;
+    height: 150px;
+    max-width: 200px;;
     box-sizing: border-box;
     border-radius: 8px;
     padding: 10px;
+    align-items: center;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
     background-color: antiquewhite;
+    border-color: lightblue;
+}
+
+.button {
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+}
+
+.button:hover {
+    background-color: #004085;
+}
+
+.bolinha_imagem  {
+    display: flex; /* Isso fez o símbolo ficar no meio*/
+    align-items: center; /* Isso fez o símbolo ficar no meio*/
+    justify-content: center; /* Isso fez o símbolo ficar no meio*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: purple;
+    color: white;
+}
+
+
+/* Elementos da seção de status dos pedidos*/
+
+.comeco_status {
+    gap: 22rem;
+    display:flex;
+    padding-bottom: 10px;
+}
+
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #004085;
+    margin-bottom: 10px;
+}
+
+.quadradinho_branco {
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    width: 100%;
+}
+
+.numero_pedido {
+    font-weight: bold;
+    width: 150px;
+}
+
+.progress-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.texto_status {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+}
+
+.status_texto {
+    justify-content: center;
+}
+
+.bolinha {
+    display: flex; /* Isso fez o símbolo ficar no meio*/
+    align-items: center; /* Isso fez o símbolo ficar no meio*/
+    justify-content: center; /* Isso fez o símbolo ficar no meio*/
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.verde {
+    background-color: #28a745;
+    color: white;
+}
+
+.amarela {
+    background-color: #ffc107;
+    color: white;
+}
+
+.vermelha {
+    background-color: #c81a1aea;
+    color: white;
+}
+
+.azul {
+    background-color: white;
+    border: 2px solid #007bff;
+    color: #007bff;
+}
+
+.linha {
+    border-bottom: 2px solid;
+    display: block;
+}
+
+.linha_verde {
+    height: 5px;
+    background: #28a745;
+}
+
+.linha_azul {
+    background: #007bff;
 }
